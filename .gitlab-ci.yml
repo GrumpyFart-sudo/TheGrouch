@@ -1,0 +1,10 @@
+stages:
+  - mood
+
+mood_blurp:
+  stage: mood
+  script:
+    - echo "🫠 TheGrouch awakens in CI..."
+    - ts-node blurp.ts --sigh --log
+  tags:
+    - daemon
