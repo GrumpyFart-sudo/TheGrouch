@@ -1,0 +1,6 @@
+.oh-my-zsh/
+.zsh/
+node_modules/
+*.zip
+*.tgz
+vault.log
